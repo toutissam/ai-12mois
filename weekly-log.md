@@ -3,7 +3,7 @@
    - Analogie RF_LLM (perso) : Imaginé comme un gros démodulateur qui choisis parmi N condidat, le codidat le plus probable.
    - Ce qui me trouble encore : le fonctionnement du neural systeme et le faite qu'on peut juste le calibrer et non pas le comprendre. Si on ne le comprend pas, commet il a ete créé.
 - RIR : 3 / Temps : 60 min
-## S1J2 — [date] — Training, fine-tuning, hallucination
+## S1J2 — [06/05/2026] — Training, fine-tuning, hallucination
 
 - **Pre-training** (en 1 phrase) : utiliser 10 TB de données internet et les entrainer avec 6000 GPU sur 12 jours, avec un budget de 2 M afin de sortir un packet compréssé de données de taille 140 GB 
   - Coût ordre de grandeur : 6000 GPU, 12 jours, 2 millions $
@@ -14,7 +14,7 @@ vocabulaire RF c'est comme un démodulateur géant qui se base sur N condidat à
   Ma reformulation : c'est comme un démodulateur géant qui se base sur N condidat à partir d'un signal  input afin de sortir un symbolle correct. 
 
 - RIR : 3 / Temps : 40 min
-## S1J3 — Schéma RF→LLM
+## S1J3 — [06/05/2026] - Schéma RF→LLM
 
 ![Schéma RF vs LLM](schemas/schema-rf-vs-llm.png)
 
