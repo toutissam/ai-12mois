@@ -21,3 +21,4 @@ vocabulaire RF c'est comme un démodulateur géant qui se base sur N condidat à
 - Idée centrale : Analogie entre démodulateur et LLM 
 - Différence fondamentale RF vs LLM : LLM est similaire à un décodeur en constellllation de 50000 points dans 12000 dimenstions 
 - Cas dégradé (hallucination) : Cas de démodulation de fort bruit de signal, donc probabilité de ne pas sortir le symbole correcte
+- RIR : 4 / Temps : 60 min
