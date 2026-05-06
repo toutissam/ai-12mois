@@ -16,7 +16,7 @@ vocabulaire RF c'est comme un démodulateur géant qui se base sur N condidat à
 - RIR : 3 / Temps : 40 min
 ## S1J3 — [06/05/2026] - Schéma RF→LLM
 
-![Schéma RF vs LLM](schemas/schema-rf-vs-llm.png)
+![Schéma RF vs LLM](schema/schema-rf-vs-llm.png)
 
 - Idée centrale : Analogie entre démodulateur et LLM . Un LLM decide entre N token dans un espace de representation, comme un Démodulateur. 
 - Différence fondamentale RF vs LLM : LLM est similaire à un décodeur en constellllation de 50000 points dans 12000 dimenstions 
