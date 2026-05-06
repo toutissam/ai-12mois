@@ -22,3 +22,7 @@ vocabulaire RF c'est comme un démodulateur géant qui se base sur N condidat à
 - Différence fondamentale RF vs LLM : LLM est similaire à un décodeur en constellllation de 50000 points dans 12000 dimenstions 
 - Cas dégradé (hallucination) : Cas de démodulation de fort bruit de signal, donc probabilité de ne pas sortir le symbole correcte
 - RIR : 4 / Temps : 60 min
+## S1J4 — [07/05/2026] — Feynman : Qu'est-ce qu'un LLM ?
+[5 lignes max, sans rouvrir Karpathy ni les sections précédentes]
+Un LLM ressemble à un démodulateur géant qui décide parmi N candidats dans un espace appris à 12k+D . C'est un systeme de prédiction du prochain token, composé de 70B de parametres , composé de deux fichiers : un fichier de poids pré entrainés et un fichier run.c. La premiere étape est le pré-entrainement  afin d'entrainer les données internet via 6000 GPU pendant douze  jours pour sortir 140 GB de données compressés. Puis le fine-tunning qui consite à donner des QA par des humains afin de perfectionner les reponses et les donner à LLM pour l'netrainer encore une fois. Il peut faire objet à l'hallucination qui consiste à sortir le prochain token n'est pas un bug mais un mécanisme nominal.
+- RIR : 2 / Temps : 90 min
