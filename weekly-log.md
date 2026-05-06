@@ -14,3 +14,10 @@ vocabulaire RF c'est comme un démodulateur géant qui se base sur N condidat à
   Ma reformulation : c'est comme un démodulateur géant qui se base sur N condidat à partir d'un signal  input afin de sortir un symbolle correct. 
 
 - RIR : 3 / Temps : 40 min
+## S1J3 — Schéma RF→LLM
+
+![Schéma RF vs LLM](schemas/schema-rf-vs-llm.png)
+
+- Idée centrale : Analogie entre démodulateur et LLM 
+- Différence fondamentale RF vs LLM : LLM est similaire à un décodeur en constellllation de 50000 points dans 12000 dimenstions 
+- Cas dégradé (hallucination) : Cas de démodulation de fort bruit de signal, donc probabilité de ne pas sortir le symbole correcte
